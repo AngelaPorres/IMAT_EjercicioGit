@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(Divide(2, 5));
             Console.WriteLine($"Resta: {Subtract(2, 3)}");
         }
 
@@ -17,11 +18,14 @@
             return x * y; 
         }
 
+        static int Divide(int x, int y)
+        {
+            return x / y;
+        }
+
         static int Subtract(int x, int y)
         {
             x - y
         }
-
-
     }
 }
