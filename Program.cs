@@ -22,7 +22,7 @@
         {
             if (y == 0)
             {
-                Console.WriteLine("Error: no se puede dividir entre 0.");
+                Console.WriteLine($"Error: no se puede dividir entre {x} entre {y}");
                 return 0;
             }
 
